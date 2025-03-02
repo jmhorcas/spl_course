@@ -1,0 +1,23 @@
+features
+    "Ice Cream"
+        mandatory
+            Category
+                alternative
+                    Popsicle
+                    Scoop
+            Flavors
+                or
+                    Lemon
+                    Vanilla
+                    Chocolate
+            Container
+                alternative
+                    Stick
+                    Cup
+                    Cone
+        optional
+            "Whipped cream"
+            
+constraints
+    Popsicle => Stick
+    Stick => ! "Whipped cream"

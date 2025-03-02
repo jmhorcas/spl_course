@@ -1,0 +1,26 @@
+         _.-.
+       ,'/ //\
+      /// // /)
+     /// // //|
+{% for flavor in Flavors %}
+ {% for i in range(0, 4-loop.index0) %} {% endfor %}
+  {% if flavor.Lemon %}
+/Lemon🍋 Lemon🍋 Lemon🍋/
+  {% endif %}
+  {% if flavor.Vanilla %}
+/Vanilla🍦 Vanilla🍦 Vanilla🍦/
+  {% endif %}
+  {% if flavor.Dark %}
+/ Dark🍫  Dark🍫  Dark🍫/
+  {% endif %}
+  {% if flavor.White %}
+/White🍫  White🍫  White🍫/
+  {% endif %}
+{% endfor %}
+   /// // ///
+  (`: // ///
+   `;`: ///
+   / /:`:/
+  / /  `'
+ / /
+(_/  {% if CustomerName %}{{CustomerName}}{% endif %}
