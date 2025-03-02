@@ -37,7 +37,7 @@ if __name__ == '__main__':
     fm = dm.use_transformation_t2m('icecream/fm_models/icecream_fm.uvl', 'fm')
 
     # Step 2. Load a configuration of the FM
-    config = load_configuration_from_file('icecream/configurations/icecream_fm_cone.uvl.json')
+    config = load_configuration_from_file('icecream/configurations/icecream_fm_cup.uvl.json')
     print(config.elements)
     #config.elements['Flavors'].pop()
     # Step 2 (alternative). Generate a random configuration

@@ -8,15 +8,6 @@
       {
         "Flavors": true,
         "Lemon": true
-      },
-      {
-        "Flavors": true,
-        "Chocolate": true,
-        "White": true
-      },
-      {
-        "Flavors": true,
-        "Vanilla": true
       }
     ],
     "Waffle": false,

@@ -7,12 +7,13 @@
     "Flavors": [
       {
         "Flavors": true,
-        "Lemon": true
+        "Chocolate": true,
+        "White": true
       },
       {
         "Flavors": true,
         "Chocolate": true,
-        "White": true
+        "Dark": true
       },
       {
         "Flavors": true,
@@ -23,3 +24,4 @@
     "CustomerName": "Josemi"
   }
 }
+
