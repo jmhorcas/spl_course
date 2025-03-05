@@ -3,7 +3,6 @@ from typing import Any
 
 import jinja2
 from flamapy.core.discover import DiscoverMetamodels
-#from flamapy.metamodels.configuration_metamodel.models import Configuration
 
 
 class Configuration:
@@ -30,22 +29,23 @@ if __name__ == '__main__':
     dm = DiscoverMetamodels()
 
     # Initialization of Jinja
-    template_loader = jinja2.FileSystemLoader(searchpath="icecream/templates")
+    template_loader = jinja2.FileSystemLoader(searchpath="ejemplos/icecream/templates")
     environment = jinja2.Environment(loader=template_loader, trim_blocks=True, lstrip_blocks=True)
 
     # Step 1. Load the FM
-    fm = dm.use_transformation_t2m('icecream/fm_models/icecream_fm.uvl', 'fm')
+    fm = dm.use_transformation_t2m('ejemplos/icecream/fm_models/icecream_fm.uvl', 'fm')
 
     # Step 2. Load a configuration of the FM
-    config = load_configuration_from_file('icecream/configurations/icecream_fm_cup.uvl.json')
-    print(config.elements)
-    #config.elements['Flavors'].pop()
+    config = load_configuration_from_file('ejemplos/icecream/configurations/icecream_fm_cone.uvl.json')
+    
     # Step 2 (alternative). Generate a random configuration
 
-    # Step 3. Load the templates
+    # Step 3 (opcional). Load the mapping model
+
+    # Step 4. Load the templates
     template = environment.get_template('icecream_template.txt.jinja')
 
-    # Step 4. Generate the product from the configuration
+    # Step 5. Generate the product from the configuration
     content = template.render(config.elements)
     print(content)
     # Save the product

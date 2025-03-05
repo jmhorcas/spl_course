@@ -3,8 +3,13 @@
   "config": {
     "Popsicle": false,
     "Scoop": true,
-    "Cone": true,
+    "Cup": true,
     "Flavors": [
+      {
+        "Flavors": true,
+        "Chocolate": true,
+        "White": true
+      },
       {
         "Flavors": true,
         "Chocolate": true,
@@ -19,3 +24,5 @@
     "CustomerName": "Josemi"
   }
 }
+
+

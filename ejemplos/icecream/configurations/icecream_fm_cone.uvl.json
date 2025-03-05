@@ -3,13 +3,8 @@
   "config": {
     "Popsicle": false,
     "Scoop": true,
-    "Cup": true,
+    "Cone": true,
     "Flavors": [
-      {
-        "Flavors": true,
-        "Chocolate": true,
-        "White": true
-      },
       {
         "Flavors": true,
         "Chocolate": true,
