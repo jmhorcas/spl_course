@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 240102  -->
+  <question type="multichoice">
+    <name>
+      <text>P6</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">En un programa nos encontramos el siguiente trozo de código. ¿Qué mecanismo está usando para implementar la variabilidad?</p><p dir="ltr"><strong>{% if usuario.activo %}<br></strong><strong style="font-size: 0.9375rem;"><span style="font-size: 0.9375rem; white-space: pre;">	</span><span style="font-size: 0.9375rem;">Bienvenido {{ usuario.nombre }}<br></span></strong><strong style="font-size: 0.9375rem;"><span style="font-size: 0.9375rem;">{% else %}<br></span></strong><strong style="font-size: 0.9375rem;"><span style="font-size: 0.9375rem; white-space: pre;">	</span><span style="font-size: 0.9375rem;">Por favor, activa tu cuenta.<br></span></strong><strong style="font-size: 0.9375rem;"><span style="font-size: 0.9375rem;">{% endif %}</span></strong></p><p></p><p></p><p dir="ltr"></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Preprocesadores de plantillas</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Build systems (sistemas de construcción)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Virtual Separation of Concerns</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Parámetros de configuración</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
